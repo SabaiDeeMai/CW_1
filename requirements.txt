@@ -1,0 +1,32 @@
+certifi==2025.4.26 ; python_version >= "3.13"
+charset-normalizer==3.4.2 ; python_version >= "3.13"
+dotenv==0.9.9 ; python_version >= "3.13"
+idna==3.10 ; python_version >= "3.13"
+numpy==2.2.5 ; python_version >= "3.13"
+pandas==2.2.3 ; python_version >= "3.13"
+python-dateutil==2.9.0.post0 ; python_version >= "3.13"
+python-dotenv==1.1.0 ; python_version >= "3.13"
+pytz==2025.2 ; python_version >= "3.13"
+requests==2.32.3 ; python_version >= "3.13"
+six==1.17.0 ; python_version >= "3.13"
+tzdata==2025.2 ; python_version >= "3.13"
+urllib3==2.4.0 ; python_version >= "3.13"
+
+pandas~=2.2.3
+requests~=2.32.3
+dotenv~=0.9.9
+python-dotenv~=1.1.0
+pip~=25.0.1
+pytz~=2025.2
+pytest~=8.3.5
+numpy~=2.2.5
+charset-normalizer~=3.4.2
+typing_extensions~=4.13.0
+mypy~=1.15.0
+click~=8.1.8
+openpyxl~=3.1.5
+python-dateutil~=2.9.0.post0
+certifi~=2025.4.26
+urllib3~=2.4.0
+six~=1.17.0
+idna~=3.10
