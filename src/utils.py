@@ -1,8 +1,9 @@
+import json
+import os
+
 import pandas as pd
 import requests
 from dotenv import load_dotenv
-import json
-import os
 
 
 def read_excel_file(file_path: str) -> dict:
