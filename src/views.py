@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv
 
-from utils import get_currency_rate, load_user_settings
+from src.utils import get_currency_rate, load_user_settings
 
 logging.basicConfig(
     level=logging.INFO,

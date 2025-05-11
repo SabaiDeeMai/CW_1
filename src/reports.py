@@ -8,7 +8,7 @@ import pandas as pd
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 
-from utils import get_currency_rate
+from src.utils import get_currency_rate
 
 # Настройка логгера
 reports_logger = logging.getLogger("app.reports")
@@ -42,11 +42,16 @@ def save_report_to_file(filename: Optional[str] = None):
             # Запись результата в файл
             try:
                 with open(report_filename, "w", encoding="utf-8") as f:
+                    result_value = json.loads(result)
+
                     f.write(f"Отчет сгенерирован: {datetime.datetime.now()}\n")
                     f.write(f"Функция: {func.__name__}\n")
                     f.write(f"Категория: {kwargs.get('chosen_category', args[1] if len(args) > 1 else 'N/A')}\n")
                     f.write(f"Период: последние 3 месяца до {kwargs.get('end_date', 'текущей даты')}\n")
-                    f.write(f"Итоговая сумма: {result:.2f} RUB\n")
+                    if isinstance(result_value, (float, int)):
+                        f.write(f"Итоговая сумма: {result_value:.2f} RUB\n")
+                    else:
+                        f.write(f"Итоговая сумма: {0:.2f} RUB\n")  # если результат не числовой
                     f.write("=" * 50 + "\n\n")
 
                 reports_logger.info(f"Отчет сохранен в файл: {report_filename}")
