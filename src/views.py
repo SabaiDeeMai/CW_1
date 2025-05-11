@@ -69,11 +69,7 @@ def get_card_statistics(transactions_data: dict) -> List[Dict[str, Union[str, fl
             }
 
         # Суммируем траты и кэшбэк (с обработкой None), учитываем отмененные операции и валюту
-        amount = (
-            float(tx.get("Сумма операции", 0))
-            if tx.get("Сумма операции") is not None
-            else 0.0
-        )
+        amount = float(tx.get("Сумма операции", 0)) if tx.get("Сумма операции") is not None else 0.0
         cashback = float(tx.get("Кэшбэк", 0)) if tx.get("Кэшбэк") is not None else 0.0
         payment_status = tx.get("Статус", 0)
         transaction_currency = str(tx.get("Валюта операции", 0))
@@ -81,12 +77,8 @@ def get_card_statistics(transactions_data: dict) -> List[Dict[str, Union[str, fl
 
         if amount < 0 and payment_status == "OK":
             if transaction_currency != "RUB":
-                amount = (
-                    get_currency_rate(transaction_currency, date_of_payment) * amount
-                )
-            cards_data[last_digits]["total_spent"] = round(
-                cards_data[last_digits]["total_spent"] + abs(amount), 2
-            )
+                amount = get_currency_rate(transaction_currency, date_of_payment) * amount
+            cards_data[last_digits]["total_spent"] = round(cards_data[last_digits]["total_spent"] + abs(amount), 2)
 
         if cashback > 0:
             cards_data[last_digits]["cashback"] += cashback
@@ -129,9 +121,7 @@ def get_top_transactions(transactions_data: dict) -> List[Dict[str, Union[str, f
                 "description": operation_description,
             }
 
-    sorted_operation_amount = sorted(
-        cards_data.values(), key=lambda op: abs(op["amount"]), reverse=True
-    )
+    sorted_operation_amount = sorted(cards_data.values(), key=lambda op: abs(op["amount"]), reverse=True)
 
     return sorted_operation_amount[:5]
 
@@ -188,9 +178,7 @@ def get_stock_prices() -> List[Dict[str, Union[str, float]]]:
                 "interval": "1min",
                 "apikey": twelvedata_api_key,
             }
-            stock_api_response = requests.request(
-                "GET", twelvedata_api_url, params=params
-            )
+            stock_api_response = requests.request("GET", twelvedata_api_url, params=params)
             stock_api_response.raise_for_status()
 
             stock_data = stock_api_response.json()
