@@ -206,28 +206,30 @@ def get_top_transactions(transactions_data: dict) -> List[Dict[str, Union[str, f
     return sorted_operation_amount[:5]
 
 
-def get_currency_rates(currencies_settings=None) -> List[Dict[str, Union[str, float]]]:
+def get_currency_rates(settings=None) -> List[Dict[str, Union[str, float]]]:
     """Выводит курс валют"""
     load_dotenv()
     db_logger.info("Загружен файл с ключами")
     api_key = os.getenv("API_KEY")
-    api_url = "https://api.apilayer.com/exchangerates_data/latest"
+    api_url = "https://api.apilayer.com/exchangerates_data/latest "
 
-    if currencies_settings is None:
-        currencies_settings = load_user_settings("../user_settings.json")
-    user_currencies = currencies_settings.get("user_currencies", [])
+    # Загружаем настройки, если не переданы явно
+    if settings is None:
+        settings = load_user_settings("../user_settings.json")
+
+    user_currencies = settings.get("user_currencies", [])
 
     headers = {"apikey": api_key}
     result = []
+
     for current_currency in user_currencies:
         payload = {"symbols": "RUB", "base": current_currency}
 
         try:
-            response = requests.request("GET", api_url, headers=headers, params=payload)
+            response = requests.get(api_url, headers=headers, params=payload)
             response.raise_for_status()
             currency_data = response.json()
 
-            result.append(currency_data)
             if "rates" in currency_data and "RUB" in currency_data["rates"]:
                 result.append(
                     {
@@ -236,9 +238,10 @@ def get_currency_rates(currencies_settings=None) -> List[Dict[str, Union[str, fl
                     }
                 )
 
-        except (requests.RequestException, KeyError, ValueError, TypeError, Exception):
-            return [{}]
-    return result if result else [{}]
+        except (requests.RequestException, KeyError, ValueError, TypeError):
+            continue
+
+    return result
 
 
 def get_stock_prices() -> List[Dict[str, Union[str, float]]]:

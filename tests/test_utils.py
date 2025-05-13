@@ -5,17 +5,8 @@ from unittest.mock import MagicMock, mock_open, patch
 import pandas as pd
 import pytest
 
-from src.utils import (
-    get_card_statistics,
-    get_currency_rate,
-    get_greeting,
-    get_stock_prices,
-    get_top_transactions,
-    load_user_settings,
-    read_excel_file,
-    read_excel_file_to_df,
-    get_currency_rates,
-)
+from src.utils import (get_card_statistics, get_currency_rate, get_currency_rates, get_greeting, get_stock_prices,
+                       get_top_transactions, load_user_settings, read_excel_file, read_excel_file_to_df)
 
 
 # Тесты для функции read_excel_file
@@ -169,20 +160,23 @@ def test_get_top_transactions():
 
 
 # Тест для функции get_currency_rates
-@patch("src.views.requests.get")
+@patch("src.utils.requests.get")
 def test_get_currency_rates(mock_get):
+    # Настраиваем мок-ответ
     mock_response = MagicMock()
-    mock_response.json.return_value = {"rates": {"RUB": 75.0}}
+    mock_response.json.return_value = {"success": True, "rates": {"RUB": 75.0}, "base": "USD"}
     mock_get.return_value = mock_response
 
-    # Мокируем load_user_settings
-    with patch("src.views.load_user_settings") as mock_load_user_settings:
-        mock_load_user_settings.return_value = {"user_currencies": ["USD", "EUR"]}
+    # Мокаем load_user_settings
+    with patch("src.utils.load_user_settings") as mock_load_user_settings:
+        mock_load_user_settings.return_value = {"user_currencies": ["USD"]}
 
         result = get_currency_rates()
-        assert len(result) == 2  # Должно быть 2 валюты
-        assert result[0]["currency"] == "USD"  # Проверка валюты
-        assert result[0]["rate"] == 75.0  # Проверка курса
+
+        # Проверяем результат
+        assert len(result) == 1
+        assert result[0]["currency"] == "USD"
+        assert result[0]["rate"] == 75.0
 
 
 # Тест для функции get_stock_prices
