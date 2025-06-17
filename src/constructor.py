@@ -1,27 +1,32 @@
-from abc import abstractmethod
+from typing import Dict, List, Optional
 
 
 class Vacancy:
+    __slots__ = ("title", "url", "salary", "description")
 
-    profession: str = ""
-    url: str = ""
-    salary: str = ""
-    requirements: str = ""
+    def __init__(self, title: str, url: str, salary: Optional[Dict], description: str):
+        self.title = title or "Без названия"
+        self.url = url or "#"
+        self.salary = salary or {"from": None, "to": None, "currency": None}
+        self.description = description or "Описание отсутствует"
 
-    def __init__(self, name: str, url: str, salary: int, employer: str):
-        self.name = _validate_name(name)
-        ...
-
-    def _validate_name(self, name):
-        if not isinstance(name, str):
-            raise ValueError("Название вакансии должно быть строкой.")
-        return name
+    def __str__(self):
+        salary_from = self.salary.get("from", "?")
+        salary_to = self.salary.get("to", "?")
+        return (
+            f"{self.title}\n"
+            f"Зарплата: {salary_from}-{salary_to} {self.salary.get('currency', '')}\n"
+            f"Ссылка: {self.url}\n"
+        )
 
     @classmethod
-    def cast_to_object_list(cls, hh_vacancies):
-        pass
-
-    @abstractmethod
-    def load_vacancies(self, keyword):
-        """Создаем абстрактный метод для получения вакансий по ключевому слову"""
-        pass
+    def cast_to_object_list(cls, data: List[Dict]) -> List["Vacancy"]:
+        return [
+            cls(
+                title=v.get("name"),
+                url=v.get("alternate_url"),
+                salary=v.get("salary"),
+                description=v.get("snippet", {}).get("requirement", ""),
+            )
+            for v in data
+        ]

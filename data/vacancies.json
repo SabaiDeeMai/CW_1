@@ -1,0 +1,826 @@
+[
+  {
+    "title": "Сборщик двигателей летательных аппаратов",
+    "url": "https://hh.ru/vacancy/121650092",
+    "salary": {
+      "from": 100000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Опыт работы сборщиком двигателей летательных аппаратов обязателен. Разряд <highlighttext>слесаря</highlighttext>-сборщика (не ниже 4-го разряда). Умение работать с технической документацией."
+  },
+  {
+    "title": "Слесарь МСР 5-ого разряда",
+    "url": "https://hh.ru/vacancy/121711129",
+    "salary": {
+      "from": 100000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Среднее общее; среднее профессиональное образование. Стаж работы не менее 2-х лет <highlighttext>слесарем</highlighttext> МСР 4-го разряда."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121725620",
+    "salary": {
+      "from": 81000,
+      "to": 99000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Образование среднее профессиональное. Опыт выполнения аналогичных обязанностей от 5-х лет. Удостоверение 5 разряд."
+  },
+  {
+    "title": "Frontend-разработчик ТМИС (junior)",
+    "url": "https://hh.ru/vacancy/121650449",
+    "salary": {
+      "from": 300000,
+      "to": 400000,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "HTML5 + семантика — знаешь, зачем main, section и ARIA-атрибуты, а не просто div-пазл. CSS3 / SCSS — flex..."
+  },
+  {
+    "title": "Web-программист - стажер",
+    "url": "https://hh.ru/vacancy/118711736",
+    "salary": {
+      "from": 100000,
+      "to": 100000,
+      "currency": "KZT",
+      "gross": true
+    },
+    "description": "Carfast- Первый онлайн авто аукцион в Казахстане. Доброжелательный и целеустремленный командный игрок. Принимаете верные решения в критических ситуациях. "
+  },
+  {
+    "title": "Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/120825511",
+    "salary": {
+      "from": 70000,
+      "to": 120000,
+      "currency": "KGS",
+      "gross": false
+    },
+    "description": "Коммерческий опыт: от 3 лет в разработке. Технический стек: Уверенное владение React и Next.js. Глубокое понимание JavaScript (ES6+..."
+  },
+  {
+    "title": "Junior/Junior+ Android Разработчик Kotlin",
+    "url": "https://hh.ru/vacancy/121700577",
+    "salary": {
+      "from": 70000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Постоянно развиваться, учиться, прокачивать свои знания и навыки. Имеешь коммерческий опыт Android-разработки от 3-х месяцев. Знаешь и использовал..."
+  },
+  {
+    "title": "Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/121617438",
+    "salary": {
+      "from": 50000,
+      "to": 100000,
+      "currency": "KGS",
+      "gross": true
+    },
+    "description": "Опыт коммерческой разработки от 3 лет. Отличное знание JavaScript (ES6+) и TypeScript. Уверенное владение React, Next.js. "
+  },
+  {
+    "title": "Стажер-разработчик Frontend",
+    "url": "https://hh.ru/vacancy/121733591",
+    "salary": {
+      "from": 30000,
+      "to": 30000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Начальный опыт с ReactJS или Vue. Знание стандарта JavaScript ES2015+. Навыки верстки HTML / CSS. Знание на базовом уровне..."
+  },
+  {
+    "title": "Frontend-разработчик (middle)",
+    "url": "https://hh.ru/vacancy/121641534",
+    "salary": {
+      "from": null,
+      "to": 130000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Уверенное знание экосистемы Vue.js. Уверенное знание современного JavaScript. Писать понятный и поддерживаемый код, предлагать и реализовывать идеи по его улучшению. "
+  },
+  {
+    "title": "Веб-дизайнер, разработчик",
+    "url": "https://hh.ru/vacancy/121634712",
+    "salary": {
+      "from": null,
+      "to": 120000,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "Опыт в Figma / Adobe XD. - Базовые знания HTML/CSS/JS. - Чувство стиля, внимательность к деталям. - Понимание принципов юзабилити. - Портфолио обязательно."
+  },
+  {
+    "title": "Python-разработчик",
+    "url": "https://hh.ru/vacancy/121756097",
+    "salary": {
+      "from": null,
+      "to": 90000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Опыт работы от 6 месяцев коммерческой разработки. Опыт работы с MySQL. Умение структурно мыслить, а также разбивать проект на подзадачи. "
+  },
+  {
+    "title": "Junior Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/121691381",
+    "salary": {
+      "from": null,
+      "to": 70000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Наличие коммерческого опыта (будет преимуществом, но не обязательно). Опыт работы с TypeScript. Отличное знание JavaScript (ES6+), понимание принципов..."
+  },
+  {
+    "title": "Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/121530081",
+    "salary": {
+      "from": 6000000,
+      "to": 12000000,
+      "currency": "UZS",
+      "gross": true
+    },
+    "description": "Опыт работы с React от 1 года. - Опыт работы в ERP или CRM системах. - Уверенные знания JavaScript (ES6+..."
+  },
+  {
+    "title": "Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/121629330",
+    "salary": {
+      "from": 5000000,
+      "to": null,
+      "currency": "UZS",
+      "gross": false
+    },
+    "description": "Опыт работы с JavaScript (от 2-х лет). Опыт работы с VueJS, NodeJS. Хорошее знание сопутствующих технологий HTML5, CSS..."
+  },
+  {
+    "title": "Frontend-разработчик (Middle/Senior) в финтех — офис в Астане",
+    "url": "https://hh.ru/vacancy/121635118",
+    "salary": {
+      "from": 700000,
+      "to": 1200000,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "React, React Router, TypeScript/JavaScript. Tailwind CSS, shadcn/ui. Feature-Sliced Design (FSD) подход к архитектуре. ESLint, Prettier, Vite. "
+  },
+  {
+    "title": "Strong Junior Java Developer",
+    "url": "https://hh.ru/vacancy/121500696",
+    "salary": {
+      "from": 400000,
+      "to": null,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "Уверенное знание Java 11+, Spring Boot, Maven/Gradle. Понимание архитектуры микросервисов. Опыт работы с REST API и сериализацией данных..."
+  },
+  {
+    "title": "Junior Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/121288916",
+    "salary": {
+      "from": 300000,
+      "to": 500000,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "Базовые знания JavaScript и TypeScript. Опыт работы с React. Опыт работы с API. Знание CSS-модулей и SCSS. "
+  },
+  {
+    "title": "Middle+/Senior Vue Frontend Developer в Web3. 0 - FinTech стартап (алготрейдинг)",
+    "url": "https://hh.ru/vacancy/121705889",
+    "salary": {
+      "from": 200000,
+      "to": 350000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "4+ лет опыта во frontend-разработке. Отличное знание Vue3, JavaScript и TypeScript. Опыт работы с REST API. "
+  },
+  {
+    "title": "Java-разработчик",
+    "url": "https://hh.ru/vacancy/121743776",
+    "salary": {
+      "from": 200000,
+      "to": 250000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы на позиции java-<highlighttext>разработчика</highlighttext> Backend/Frontend от 2 лет. - Наличие портфолио из завершенных приложений/проектов. - Знания, навыки: Java..."
+  },
+  {
+    "title": "Frontend developer (React)",
+    "url": "https://hh.ru/vacancy/121678355",
+    "salary": {
+      "from": 180000,
+      "to": 250000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы в области Frontend <highlighttext>developer</highlighttext> (React) от 5 лет. Отличное знание языков JavaScript,Typescript. Практический опыт использования react, React..."
+  },
+  {
+    "title": "Web-разработчик",
+    "url": "https://hh.ru/vacancy/121045974",
+    "salary": {
+      "from": 150000,
+      "to": 300000,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "Знание основ веб-разработки: HTML, CSS, JavaScript. Базовое понимание одного из JavaScript-фреймворков (React, Vue и др.). Начальные знания backend..."
+  },
+  {
+    "title": "Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/121724195",
+    "salary": {
+      "from": 150000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Уверенные знания HTML5, CSS3, JavaScript (ES6+). Опыт работы с одним или несколькими фреймворками: React, Vue.js, Angular. "
+  },
+  {
+    "title": "Слесарь-сварщик",
+    "url": "https://hh.ru/vacancy/121513538",
+    "salary": {
+      "from": 7000000,
+      "to": null,
+      "currency": "UZS",
+      "gross": false
+    },
+    "description": "Умение читать и понимать чертежи. Знание ГОСТов по сварочным операциям. Аккуратность. Ответственность."
+  },
+  {
+    "title": "Монтажник сантехнических систем",
+    "url": "https://hh.ru/vacancy/121344860",
+    "salary": {
+      "from": 300000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Опыт работы монтажником СТС или <highlighttext>слесарем</highlighttext>-сантехником от 1 года. Ответственность, исполнительность. Наличие образования и подтверждающих документов для выполнения работ. "
+  },
+  {
+    "title": "Слесарь-сборщик",
+    "url": "https://hh.ru/vacancy/121713604",
+    "salary": {
+      "from": 200000,
+      "to": 350000,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "Установка магнитопроводов и обмоток. - Чтение чертежей, схем и технических карт. - Точность и внимательность к деталям. - Стрессоустойчивость. - Умение работать в команде."
+  },
+  {
+    "title": "Оператор производственной линии",
+    "url": "https://hh.ru/vacancy/121300755",
+    "salary": {
+      "from": 170000,
+      "to": 250000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы на аналогичной должности. - Ответственность, внимательность, желание работать."
+  },
+  {
+    "title": "Слесарь по сборке МК в г. Екатеринбург",
+    "url": "https://hh.ru/vacancy/121628125",
+    "salary": {
+      "from": 170000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Сборка металлоконструкций по чертежам, опыт работы обязателен от 1 года. Также умение пользоваться пневмоинструментом (зачистка торцов, кромок и т.д.). "
+  },
+  {
+    "title": "Бригада слесарей-сантехников/сварщиков",
+    "url": "https://hh.ru/vacancy/121383026",
+    "salary": {
+      "from": 350000,
+      "to": 500000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Чтение чертежей."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121671865",
+    "salary": {
+      "from": 300000,
+      "to": 300000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Исполнительность. Чистоплотность."
+  },
+  {
+    "title": "Монтажник сантехнических систем",
+    "url": "https://hh.ru/vacancy/121121485",
+    "salary": {
+      "from": 300000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Опыт работы монтажником СТС или <highlighttext>слесарем</highlighttext>-<highlighttext>сантехником</highlighttext> от 1 года. Ответственность, исполнительность. Наличие образования и подтверждающих документов для выполнения работ. "
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121447484",
+    "salary": {
+      "from": 250000,
+      "to": null,
+      "currency": "KZT",
+      "gross": false
+    },
+    "description": "Среднее профессиональное образование. Стаж работы по специальности не менее 3 лет."
+  },
+  {
+    "title": "Главный энергетик",
+    "url": "https://hh.ru/vacancy/121126825",
+    "salary": {
+      "from": 172000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Высшее техническое образование. Опыт работы от 5 лет в аналогичной должности. Группа по электробезопасности 5 группа до и выше 1000..."
+  },
+  {
+    "title": "Сантехник (САО)",
+    "url": "https://hh.ru/vacancy/121335224",
+    "salary": {
+      "from": 150000,
+      "to": 200000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт по обслуживанию и ремонту сантехнического оборудования. — Опыт в установке нового сантехнического оборудования. — Опыт по разводке труб. — Знания ГОСТ, СНиП."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121690795",
+    "salary": {
+      "from": 150000,
+      "to": 170000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Имеете опыт проведения сантехнических работ. У вас есть права категории В и вы отлично водите машину."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121690753",
+    "salary": {
+      "from": 150000,
+      "to": 170000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Имеете опыт проведения сантехнических работ. У вас есть права категории В и вы водите машину."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/120678140",
+    "salary": {
+      "from": 150000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Умение читать чертежи и рабочие схемы. Ответственность, исполнительность, пунктуальность, трудолюбие."
+  },
+  {
+    "title": "Сантехник",
+    "url": "https://hh.ru/vacancy/121308737",
+    "salary": {
+      "from": 140000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Русскоговорящий. Опыт от 1 года."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121530887",
+    "salary": {
+      "from": 140000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "группа по электробезопасности, пожарно-технический минимум, удостоверение по тепловым электроустановкам, если нет удостоверений, обучение за счет компании. Обязательности: Ответственность, исполнительность..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121521266",
+    "salary": {
+      "from": 136895,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы в монтаже систем отопления, водоснабжения, канализации или схожей специальности. Знание принципов работы монтируемых систем. Умение читать и понимать..."
+  },
+  {
+    "title": "Слесарь - сантехник",
+    "url": "https://hh.ru/vacancy/121652685",
+    "salary": {
+      "from": 135000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы от 3 лет в аналогичной должности. Знание современных технологий и материалов. Приветствуется знание водоподготовки, котельного оборудования, оборудования автомойки..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/116136542",
+    "salary": {
+      "from": 130000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Опыт аналогичной работы от 2-х лет. Как преимущество - среднее профессиональное образование или дополнительное образование по направлению."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121176956",
+    "salary": {
+      "from": 120000,
+      "to": 180000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы от 1 года. Среднее профессиональное образование. Желание работать!"
+  },
+  {
+    "title": "Слесарь-сантехник 5 разряда (капремонт зданий)",
+    "url": "https://hh.ru/vacancy/121647627",
+    "salary": {
+      "from": 120000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Действующее удостоверение <highlighttext>слесаря</highlighttext>-<highlighttext>сантехника</highlighttext> 5 разряда. Военный билет для военнообязанных."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121679330",
+    "salary": {
+      "from": 120000,
+      "to": 120000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы <highlighttext>слесарем</highlighttext>-<highlighttext>сантехником</highlighttext> от 3-х лет."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121549204",
+    "salary": {
+      "from": 120000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Соответствующий опыт работы от 3-х лет. Профильное среднее образование."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/120338073",
+    "salary": {
+      "from": 120000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Требования: с/спец.обр.,опыт работы от 3-х лет, наличие мелкого инструмента."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121739265",
+    "salary": {
+      "from": 120000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Основные рабочие диаметры трубопроводов (свариваемых): 16мм - 150мм. - Знание о назначении, типах, видов сантехники, устройств, приборов, оборудования. - "
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121707208",
+    "salary": {
+      "from": 115000,
+      "to": 115000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Образование не ниже среднего специального. Опыт работы в сфере обслуживания зданий и сооружений (многоквартирные жилые комплексы) будет преимуществом."
+  },
+  {
+    "title": "Слесарь-сантехник (эксплуатация)",
+    "url": "https://hh.ru/vacancy/120700188",
+    "salary": {
+      "from": 115000,
+      "to": 115000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы по специальности строго от 8 лет. Среднее специальное образование."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/120728188",
+    "salary": {
+      "from": 110000,
+      "to": 110000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Профессиональные навыки сантехника-теплотехника. Опыт работы по техническому обслуживанию отопления, водоснабжения и канализации. Опыт работы в тепловых пунктах, подготовка и..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121717868",
+    "salary": {
+      "from": 109174,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Описание отсутствует"
+  },
+  {
+    "title": "Сварщик (Мосэнерго)",
+    "url": "https://hh.ru/vacancy/121221868",
+    "salary": {
+      "from": 100500,
+      "to": 135000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы сварщиком от 2-х лет. Приветствуется опыт на позициях:"
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121673996",
+    "salary": {
+      "from": 100000,
+      "to": 160000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Опыт работы в сфере сантехнических услуг – от 3 лет. Понимание принципов работы систем водоснабжения, оборудования вентиляции и кондиционирования."
+  },
+  {
+    "title": "Сантехник / Начинающий сантехник",
+    "url": "https://hh.ru/vacancy/121697245",
+    "salary": {
+      "from": 100000,
+      "to": 140000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Требование одно: Ответственное отношение к работе."
+  },
+  {
+    "title": "Слесарь / сантехник ИТП",
+    "url": "https://hh.ru/vacancy/121512529",
+    "salary": {
+      "from": 100000,
+      "to": 120000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы: от 6 лет. Навыки работы с трубами, арматурой, инструментом. Умение делать точные заготовки под сварку. Аккуратность, ответственность, самостоятельность."
+  },
+  {
+    "title": "Слесарь-сантехник в офис",
+    "url": "https://hh.ru/vacancy/121468499",
+    "salary": {
+      "from": 100000,
+      "to": 100000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы от 2х лет. Образование среднее специальное, удостоверение <highlighttext>слесаря</highlighttext>-<highlighttext>сантехника</highlighttext>. Ответственное отношение к своим обязанностям."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121488894",
+    "salary": {
+      "from": 100000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Наличие документа подтверждающего квалификацию. Опыт работы на нежилых объектах, с кап ремонтом не менее года."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/120631798",
+    "salary": {
+      "from": 97000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Среднее техническое образование. Знание принципов работы систем водоснабжения, канализации, водяного пожаротушения."
+  },
+  {
+    "title": "Слесарь-сантехник по ремонту и обслуживанию систем водоснабжения и канализации",
+    "url": "https://hh.ru/vacancy/121344557",
+    "salary": {
+      "from": 95000,
+      "to": 95000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Образование среднее или среднее-профессиональное. Опыт работы <highlighttext>слесарем</highlighttext>-<highlighttext>сантехником</highlighttext> не менее 3-х лет. Знание принципов работы водопроводных систем и..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121666975",
+    "salary": {
+      "from": 90000,
+      "to": 130000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "1. Опыт монтажа, дефектовки и ремонта систем водоснабжения, теплоснабжения и водоотведения из различных материалов (металл, полипропилен, ПНД, сшитый полиэтилен). 2. "
+  },
+  {
+    "title": "Слесарь-сантехник / Рабочий по комплексному ремонту зданий (Хаус-мастер/техник/сантехник ЖКХ)",
+    "url": "https://hh.ru/vacancy/121672576",
+    "salary": {
+      "from": 90000,
+      "to": 110000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Иметь навыки сантехнических, столярных, слесарных, плотницких и других ремонтно-строительных работ. Образование от начального профессионального (по рабочим профессиям) и опыт..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121172959",
+    "salary": {
+      "from": 90000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "description": "Средне-специальное образование соответствующего профиля. Знание устройства и принципа работы систем отопления, ГВС, ХВС и канализации. Знание технологии проведения сантехнических..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121388192",
+    "salary": {
+      "from": 90000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Знание устройства и основных принципов санитарно-технических систем. Ответственность, склонность к самостоятельному решению проблем. Активность, пунктуальность."
+  },
+  {
+    "title": "Инженер сервисной службы",
+    "url": "https://hh.ru/vacancy/121333449",
+    "salary": {
+      "from": 90000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы <highlighttext>слесарем</highlighttext>-<highlighttext>сантехником</highlighttext> или аналогичной должности от 1 года. Умение читать принципиальные схемы ИТП (или готовность обучиться). "
+  },
+  {
+    "title": "Начинающий специалист газового хозяйства",
+    "url": "https://hh.ru/vacancy/121713814",
+    "salary": {
+      "from": 85000,
+      "to": 120000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Среднее-профессиональное техническое образование. Опыт работы с газовым оборудованием, либо <highlighttext>слесарем</highlighttext>-<highlighttext>сантехником</highlighttext>, слесарем-ремонтником."
+  },
+  {
+    "title": "Начинающий специалист",
+    "url": "https://hh.ru/vacancy/121366802",
+    "salary": {
+      "from": 85000,
+      "to": 85000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Умение работать со слесарным инструментом, электроинструментом, пневмо-инструментом. Желание работать в сфере газового хозяйства. Готовность пройти обучение (за счет компании). "
+  },
+  {
+    "title": "Слесарь-сантехник (ОВиК, ВК)",
+    "url": "https://hh.ru/vacancy/121739572",
+    "salary": {
+      "from": 82000,
+      "to": 90000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Знание и навыки работы с ПК. Ответственность, внимательность, дисциплинированность. Диплом или удостоверение по специальности <highlighttext>слесаря</highlighttext>-<highlighttext>сантехника</highlighttext> и опыт работы обязателен."
+  },
+  {
+    "title": "Слесарь-Сантехник (Пермь)",
+    "url": "https://hh.ru/vacancy/120508582",
+    "salary": {
+      "from": 80000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Знание устройств отопительных систем, ГВС, ХВС. Владение слесарным и электроинструментом."
+  },
+  {
+    "title": "Техник по эксплуатации",
+    "url": "https://hh.ru/vacancy/121339183",
+    "salary": {
+      "from": 70000,
+      "to": 83000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт работы <highlighttext>слесарем</highlighttext>- <highlighttext>сантехником</highlighttext>. Опыт эксплуатации и ремонта систем отопления, ГВС, ХВС и канализации. Опыт работы по сантехнике, отоплению, плотницким..."
+  },
+  {
+    "title": "Дежурный техник по эксплуатации",
+    "url": "https://hh.ru/vacancy/121568604",
+    "salary": {
+      "from": 70000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Наличие опыта эксплуатации систем зданий (в должности слесарь по св и к, электрик, сантехник, техник, <highlighttext>слесарь</highlighttext>-<highlighttext>сантехник</highlighttext>). Наличие III группы..."
+  },
+  {
+    "title": "Главный энергетик",
+    "url": "https://hh.ru/vacancy/121473066",
+    "salary": {
+      "from": 60000,
+      "to": 100000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Высшее техническое образование: электроэнергетика – электротехника. Допуск по электробезопасности 5 !!! (ОБЯЗАТЕЛЬНО). Опыт работы не менее 3 лет. Опыт взаимодействия со сбытовыми..."
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/120060237",
+    "salary": {
+      "from": 55000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Опыт по монтажу и ремонту узлов и элементов санитарного оборудования."
+  },
+  {
+    "title": "Рабочий КОЗ",
+    "url": "https://hh.ru/vacancy/121080259",
+    "salary": {
+      "from": 50000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "description": "Знание регламентирующих технических документов (работы с электрическим инструментом, сантехническим оборудованием и т.п.). Опыт работы с сантехническим оборудованием. "
+  },
+  {
+    "title": "Слесарь-сантехник",
+    "url": "https://hh.ru/vacancy/121326309",
+    "salary": {
+      "from": null,
+      "to": null,
+      "currency": null
+    },
+    "description": "Опыт работы в сфере эксплуатации от 3-х лет. Знание принципов работы сантехнических систем и теплотехнического оборудования. Образование среднее профессиональное..."
+  }
+]
