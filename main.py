@@ -38,7 +38,11 @@ def user_interaction():
 
     # Получение и обработка вакансий
     hh_vacancies = hh_api.get_vacancies(search_query or "Python")  # Если пустой запрос
-    vacancies = Vacancy.cast_to_object_list(hh_vacancies)
+    try:
+        vacancies = Vacancy.cast_to_object_list(hh_vacancies)
+    except Exception as e:
+        print(f"Ошибка обработки данных: {e}")
+        vacancies = []
 
     # Фильтрация и вывод
     filtered = filter_vacancies(vacancies, [filter_word] if filter_word else [])

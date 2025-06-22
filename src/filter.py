@@ -1,87 +1,49 @@
-from typing import List, Union
+from typing import List
 from src.constructor import Vacancy
-import re
 
 
-def validate_input_number(input_str: str, default: int = 5) -> int:
-    """Проверка что введено число, а не строка"""
-    try:
-        num = int(input_str)
-        return num if num > 0 else default
-    except (ValueError, TypeError):
-        return default
-
-
-def filter_vacancies(
-    vacancies: List[Vacancy], keywords: Union[str, List[str]]
-) -> List[Vacancy]:
-    """
-    Улучшенная фильтрация с обработкой разных форматов ввода:
-    - Принимает как строку, так и список ключевых слов
-    - Автоматическая очистка от лишних пробелов
-    - Защита от пустого ввода
-    """
-    if not vacancies:
-        return []
-
-    # Нормализация входных данных
-    if isinstance(keywords, str):
-        keywords = [kw.strip() for kw in keywords.split() if kw.strip()]
-    elif not isinstance(keywords, list):
-        return vacancies
-
-    if not keywords:
+def filter_vacancies(vacancies: List[Vacancy], keywords: List[str]) -> List[Vacancy]:
+    """Фильтрация вакансий по ключевым словам в названии и описании"""
+    if not keywords or not vacancies:
         return vacancies
 
     filtered = []
-    keywords = [re.sub(r"[^\w\s]", "", kw.lower()) for kw in keywords if kw]
+    keywords_lower = [kw.lower() for kw in keywords if kw]
 
     for vacancy in vacancies:
-        try:
-            search_text = " ".join(
-                [
-                    vacancy.title or "",
-                    vacancy.description or "",
-                    str(vacancy.salary.get("from", "")) if vacancy.salary else "",
-                    str(vacancy.salary.get("to", "")) if vacancy.salary else "",
-                ]
-            ).lower()
-
-            if any(
-                re.search(rf"\b{re.escape(keyword)}", search_text)
-                for keyword in keywords
-            ):
-                filtered.append(vacancy)
-        except Exception:
-            continue
-
+        search_text = f"{vacancy.title} {vacancy.description}".lower()
+        if all(kw in search_text for kw in keywords_lower):
+            filtered.append(vacancy)
     return filtered
 
 
 def sort_vacancies(vacancies: List[Vacancy]) -> List[Vacancy]:
-    """Надежная сортировка с обработкой None-значений"""
+    """Сортировка по зарплате (от высокой к низкой) с обработкой None"""
 
     def get_sort_key(v: Vacancy) -> tuple:
         salary = v.salary or {}
+        salary_from = salary.get("from")
+        salary_to = salary.get("to")
+
         return (
-            0 if salary.get("from") is None else 1,
-            salary.get("from", 0) or 0,
-            salary.get("to", 0) or 0,
+            0 if salary_from is not None else (1 if salary_to is not None else 2),
+            -(salary_from or salary_to or 0),  # Убывание через минус
+            v.title,  # Для стабильности
         )
 
-    return sorted(vacancies, key=get_sort_key, reverse=True)
+    return sorted(vacancies, key=get_sort_key)
 
 
-def get_top_vacancies(
-    vacancies: List[Vacancy], top_n: Union[str, int]
-) -> List[Vacancy]:
-    """Безопасное получение N вакансий с проверкой ввода"""
-    num = validate_input_number(top_n) if isinstance(top_n, str) else max(1, int(top_n))
-    return vacancies[:num]
+def get_top_vacancies(vacancies: List[Vacancy], top_n: int) -> List[Vacancy]:
+    """Получение топ-N вакансий с защитой от некорректных значений"""
+    try:
+        return vacancies[: max(0, int(top_n))]
+    except (TypeError, ValueError):
+        return []
 
 
 def print_vacancies(vacancies: List[Vacancy]) -> None:
-    """Улучшенный вывод с цветовой маркировкой и проверкой данных"""
+    """Выводит отформатированный список вакансий с цветовой разметкой"""
     if not vacancies:
         print("\n\033[91m✖ Вакансии не найдены\033[0m")
         print("\033[93mПопробуйте изменить параметры поиска\033[0m\n")
@@ -89,6 +51,7 @@ def print_vacancies(vacancies: List[Vacancy]) -> None:
 
     print(f"\n\033[92mНайдено вакансий: {len(vacancies)}\033[0m")
     for i, vac in enumerate(vacancies, 1):
+        # Форматирование зарплаты
         salary_info = ""
         if vac.salary:
             from_sal = vac.salary.get("from", "?")
@@ -100,9 +63,10 @@ def print_vacancies(vacancies: List[Vacancy]) -> None:
                     f"\033[94mЗарплата: "
                     f"{from_sal if from_sal != '?' else 'не указана'}"
                     f"{f'-{to_sal}' if to_sal != '?' else ''} "
-                    f"{currency if currency else ''}\033[0m"
+                    f"{currency}\033[0m"
                 )
 
+        # Вывод информации
         print(
             f"\n\033[1m{i}. {vac.title or 'Без названия'}\033[0m\n"
             f"{salary_info}"
